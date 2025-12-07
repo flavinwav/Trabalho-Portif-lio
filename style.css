@@ -156,6 +156,7 @@ img {
     border-color: #2b190d;
     width: 30%;
     height: 30px;
+    color: white;
 }
 
 .botao-contato {
@@ -195,4 +196,10 @@ img {
     font-weight: bold;
     margin-top: 5px;
     color: rgb(200, 200, 200);
+}
+
+textarea.campo {
+    font-family: inherit; 
+    padding: 10px;
+    margin-bottom: 15px; 
 }
