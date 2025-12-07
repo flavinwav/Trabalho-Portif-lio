@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=""stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 <div class="container">
@@ -15,15 +16,15 @@
             </li>
 
             <li>
-                <a href="bio.html">Bio</a>
+                <a href="#bio">Bio</a>
             </li>
 
             <li>
-                <a href="projetos.html">Projetos</a>
+                <a href="#projetos">Projetos</a>
             </li>
 
             <li>
-                <a href="orcamento.html">Orçamento</a>
+                <a href="#contato">Contato</a>
             </li>
 
         </ul>
@@ -33,19 +34,94 @@
     
     <aboutme>
         <div class="center">
-            <img src="C:\Users\Flávio\Desktop\Trabalho Portifólio\img\perfil.png" class="foto-perfil"></div>
-        <h1 class="Título">Flávio Morais</h1>
-            <h2 class="Subtítulo">Desiger</h2>    
+            <img src="img\perfil.png" class="foto-perfil"></div>
+        
+        <h1 class="Título">Flávio Morais <br> <div class="subtitulo"> Desiger Gráfico</div></h1>
     </aboutme>
 
     <principal>
-        <section class="bloco-texto">
+        <section id="bio" class="aboutme">
             <h2>Sobre Mim</h2>
-            <p>Olá! Meu nome é Flávio Morais, tenho 19 anos e sou um designer apaixonado por criar soluções visuais impactantes. Desde jovem, sempre fui fascinado pela arte e pela forma como o design pode comunicar ideias e emoções de maneira eficaz. Atualmente, estou cursando Design Gráfico na Universidade XYZ, onde tenho aprimorado minhas habilidades em diversas áreas do design, incluindo design de interfaces, branding e ilustração digital. Estou sempre em busca de novos desafios e oportunidades para aplicar minha criatividade e contribuir para projetos inovadores.</p>
-        </section>
-    </principal>
+            <p>Olá! Meu nome é Flávio Morais, tenho 19 anos,
+Gosto de explorar dados, criar, e desenhar soluções visuais. Sempre em busca de novos aprendizados!
 
-    <footer>
+Atualmente estou estudando Banco de Dados (Universidade Uninter), Mas estou em busca de estágio como Analista de Dados.
+Estou continuamente me colocando em desafios novos, gosto de arte, e produzo música nas horas vagas também, além de ser apaixonado por tecnologia e inovaçâo, estou sempre buscando me atualizar com as últimas tendências do mercado.</p>
+        </section>
+
+    </principal>    
+
+    <section class="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="habilidade">
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe InDesign</li>
+            <li>Microsoft Excel</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+        </ul>
+    </section>
+   
+    <section id="projetos" class="projetos">
+        <h2 class="head">Projetos Pessoais</h2>
+        <div class="box">
+            <div class="projeto">
+                <img src="img\CAPA BEHANCE _2.png" class="img">
+                <h3>Behance</h3>
+                <p>Desenvolvimento de artes e anúncios para redes sociais visando aumentar o engajamento.</p>
+            </div>
+
+            <div class="projeto">
+                <img src="img\gfhgf.png" class="img">
+                <h3>Projeto 3: Site</h3>
+                <p>Site abordando minha vida que desenvolvi em um trabalho do curso.</p>
+            </div>
+
+            <div class="projeto">
+                <img src="img\thrtf.png" class="img">
+                <h3>Projeto 3: Produção Musical</h3>
+                <p>Meu canal aonde posto instrumentais que faço no meu tempo livre.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contato" class="contato">
+        <h2 head-contato>Contato</h2>
+        <form class="formulario">
+            <div class="form-label">
+                <label for="nome">Nome:</label>
+                <input required class="campo">
+
+                <label for="email">Email:</label>
+                <input required class="campo">
+
+                <label for="assunto">Assunto:</label>
+                <input required class="campo">
+
+                <button type="submit" class="botao-contato">Enviar</button>
+
+            </div>
+        </form>
+    </section>
+
+
+    <div class="redes">
+    <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">
+        <img src="img\LinkedIn_icon.svg.png" class="icone">
+    </a>
+
+    <a href="https://github.com/seu-usuario" target="_blank">
+        <img src="img\Octicons-mark-github.svg" class="icone">
+    </a>
+
+    <a href="https://www.behance.net/seu-perfil" target="_blank">
+        <img src="img\toppng.com-behance-be-white-logo-icon-symbol-png-11201x7690.png" class="iconebe">
+    </a>
+    </div>
+
+    <footer class="footer">
         <p>© 2025 Flávio Morais. Todos os direitos reservados.</p>
     </div>
 
