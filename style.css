@@ -151,8 +151,9 @@ img {
 }
 
 .campo {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(27, 16, 8);
     border-radius: 6px;
+    border-color: #2b190d;
     width: 30%;
     height: 30px;
 }
@@ -178,4 +179,20 @@ img {
     padding: 4px;
     color: rgba(250, 204, 173, 0.897);
     font-size: 15px;
+}
+
+.formacao {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #ffa46fa9;
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.formacao-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(200, 200, 200);
 }
